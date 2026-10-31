@@ -4,7 +4,9 @@ Landing de una página para una cafetería ficticia. Implementada con React 19, 
 
 ## Previsualización
 
-https://la-pausa-cafe-adrian.disugareducacion.chatgpt.site
+https://aaq28.github.io/la-pausa/
+
+Versión estática publicada en GitHub Pages con `pnpm build:pages` (`vite.pages.config.ts`, carpeta `static/`) y desplegada automáticamente por `.github/workflows/pages.yml` en cada push a `main`. En esta versión no hay servidor: el formulario valida los campos y muestra una referencia, pero **es una simulación y no guarda nada**. La versión completa con Worker y D1 se ejecuta en local (ver abajo).
 
 ## Arranque local
 
